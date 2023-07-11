@@ -1,0 +1,231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+.header-1{
+  display: flex;
+  width: 98%;
+  background-color: rgb(237, 233, 233);
+  padding-left: 2%;
+  margin-bottom: 3px;
+  height: 40px;
+  border: 1px solid black;
+  justify-content: space-between;
+  line-height: 40px;
+  font-family: Graphik Compact,sans-serif;
+  font-size: 15px;
+  
+}
+.header-left, .header-right {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+      
+.header-left li, .header-right li {
+        display: inline-block;
+        margin-right: 10px;
+        list-style: none;
+      }
+.header-left a, .header-right a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: #a6a9b1;
+      }
+.header-left a:hover, .header-right a:hover {
+        color: black;
+      }
+/*.header-right-menu li:last-child {
+        margin-right: 0;
+      }*/
+/*
+.header-1 a {
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(92, 80, 80);
+  line-height: 40px;
+}
+a:hover{
+  color: black;
+}
+ul{
+  list-style-type: none;
+} */
+.header-2{
+  width: 100%;
+  background-color: rgb(237, 233, 233);
+  height: 50px;
+  border: 1px solid black;
+  font-family: Graphik Compact,sans-serif;  
+  margin-bottom: 3px;
+}
+.header-2 a {
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(92, 80, 80);
+  font-size: 18px;
+  line-height: 50px;
+  color: #505666bf;
+}
+
+.deep-tech{
+  /*position: relative;
+  width: 45%;
+  border: 3px solid black;
+  height: 500px;*/
+  width: 700px;
+  height: 500px;
+  display: inline-block;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+        margin: 10px 15px;
+        background-image: url(deep-tech.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: left;
+     
+        font-family: "grphic wide", sans-serif;
+        font-size: 26px;
+    }
+    .deep-tech h2 a {
+      text-decoration: none;
+      color: white;
+    }
+    .deep-tech h3{
+        font-family: "Shentox",medium;
+        font-size: 15px;
+        color: #fff;
+        margin-top: 250px;
+        text-transform: uppercase;
+}
+
+.sustainability{
+  display: flex;
+        position: absolute;
+        width: 350px;
+        height: 250px;
+        display: inline-block;
+        padding: 15px 15px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-image: url(sustainability.jpg);
+        background-position: left;
+        background-size: cover;
+        text-align: left;
+        font-family: grphic, sans-serif;
+        font-size: 10px;
+        color: white;
+    }
+    .sustainability a {
+      text-decoration: none;
+      color: white;
+    }
+       .sustainability h3{
+        font-family: "Shentox",medium;
+        font-size: 15px;
+        color: #fbfafa;
+        margin-top: 150px;
+        text-transform: uppercase;
+}
+.ecosystem{
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  padding: 15px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-image: url(deep-tech1.jpg);
+  background-position: left;
+  background-size: cover;
+  text-align: left;
+  font-family: grphic, sans-serif;
+  font-size: 10px;
+  color: white;
+}
+.ecosystem a {
+text-decoration: none;
+color: white;
+}
+ .ecosystem h3{
+  font-family: "Shentox",medium;
+  font-size: 15px;
+  color: #fbfafa;
+  margin-top: 150px;
+  text-transform: uppercase;
+ }
+ .right2{
+  float: right;
+ }
+
+/*
+.image-heading {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translate(-50%, -20%); 
+  color: #fff; 
+  font-size: 24px; 
+  text-align: left;
+  padding: 10px 20px;
+  
+}
+.image-heading a {
+  text-decoration: none; 
+}
+img{
+  width: 100%;
+  height: 500px;
+}
+.next-header{
+  position: absolute;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.feature{
+  display: flex;
+}
+.sustainability{
+  width: 25%;
+  height: 300%;
+  border: 3px;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.image-heading2 {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  /*transform: translate(-50%, -20%);
+  color: #fff; 
+  font-size: 24px; 
+  text-align: bottom;
+  padding: 10px 20px;
+}
+.sustainability img{
+  height: fit-content;
+}
+.sustainability a{
+  text-decoration: none;
+}
+.ecosystem{
+  border: 1px solid black;
+  width: 25%;
+  position: relative;
+  height: 225px;
+}
+.ecosystem img{
+  height: fit-content;
+}
+.image-heading3{
+  position: absolute;
+}*/
